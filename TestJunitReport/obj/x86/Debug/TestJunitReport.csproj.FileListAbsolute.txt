@@ -1,0 +1,12 @@
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\bin\Debug\TestJunitReport.rxtmg
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\bin\Debug\TestJunitReport.rxtst
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\bin\Debug\TestJunitReport.exe.config
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\bin\Debug\TestJunitReport.xml
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\bin\Debug\TestJunitReport.exe
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\bin\Debug\TestJunitReport.pdb
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\obj\x86\Debug\TestJunitReport.csproj.AssemblyReference.cache
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\obj\x86\Debug\TestJunitReport.csproj.CoreCompileInputs.cache
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\obj\x86\Debug\TestJunitReport.csproj.CopyComplete
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\obj\x86\Debug\TestJunitReport.exe
+C:\Users\manasa.peddapalli\Documents\Ranorex\RanorexStudio Projects\TestJunitReport\TestJunitReport\obj\x86\Debug\TestJunitReport.pdb

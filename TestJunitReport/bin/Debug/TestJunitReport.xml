@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestJunitReport</name>
+    </assembly>
+    <members>
+        <member name="T:TestJunitReport.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TestJunitReport.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the TestJunitReportRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestJunitReport.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestJunitReport.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TestJunitReport.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the TestJunitReportRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestJunitReport.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestJunitReport.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TestJunitReport.Recording1.repo">
+            <summary>
+            Holds an instance of the TestJunitReportRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestJunitReport.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestJunitReport.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:TestJunitReport.Recording2.repo">
+            <summary>
+            Holds an instance of the TestJunitReportRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestJunitReport.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestJunitReport.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.Recording3">
+             <summary>
+            The Recording3 recording.
+             </summary>
+        </member>
+        <member name="F:TestJunitReport.Recording3.repo">
+            <summary>
+            Holds an instance of the TestJunitReportRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.Recording3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestJunitReport.Recording3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestJunitReport.Recording3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.Recording4">
+             <summary>
+            The Recording4 recording.
+             </summary>
+        </member>
+        <member name="F:TestJunitReport.Recording4.repo">
+            <summary>
+            Holds an instance of the TestJunitReportRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.Recording4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestJunitReport.Recording4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestJunitReport.Recording4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.Recording5">
+             <summary>
+            The Recording5 recording.
+             </summary>
+        </member>
+        <member name="F:TestJunitReport.Recording5.repo">
+            <summary>
+            Holds an instance of the TestJunitReportRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording5.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.Recording5.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording5.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestJunitReport.Recording5.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.Recording5.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestJunitReport.Recording5.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.TestJunitReportRepository">
+            <summary>
+            The class representing the TestJunitReportRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TestJunitReportRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.TestJunitReportRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.TestJunitReportRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.Products">
+            <summary>
+            The Products item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.ProductsInfo">
+            <summary>
+            The Products item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.Solutions">
+            <summary>
+            The Solutions item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.SolutionsInfo">
+            <summary>
+            The Solutions item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.Ranorex">
+            <summary>
+            The Ranorex item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.RanorexInfo">
+            <summary>
+            The Ranorex item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.Resources">
+            <summary>
+            The Resources item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.ResourcesInfo">
+            <summary>
+            The Resources item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.Support">
+            <summary>
+            The Support item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.SupportInfo">
+            <summary>
+            The Support item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.FunctionalUITestAutomationWithIntel">
+            <summary>
+            The FunctionalUITestAutomationWithIntel item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.FunctionalUITestAutomationWithIntelInfo">
+            <summary>
+            The FunctionalUITestAutomationWithIntel item info.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.RanorexGaugeB2">
+            <summary>
+            The RanorexGaugeB2 item.
+            </summary>
+        </member>
+        <member name="P:TestJunitReport.TestJunitReportRepositoryFolders.ApplicationUnderTestAppFolder.RanorexGaugeB2Info">
+            <summary>
+            The RanorexGaugeB2 item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

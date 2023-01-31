@@ -1,0 +1,124 @@
+﻿<repository
+id="7dbe00f2-f0f9-4adb-beb1-e245cc898e65"
+name="TestJunitReportRepository">
+	<codegen
+	classname="TestJunitReportRepository"
+	namespace="TestJunitReport">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cde03a6b-3305-48bf-b8c7-138d2f8f344e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b37baff4-ff5f-4f37-b0cc-131c03507304"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="03c85a99-f0b2-4a45-b6c0-db9051ec0f04"
+			name="Products"
+			refimgid="3526aadd-78fa-4547-86c1-39f14662d341"
+			refpath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/li[1]/a[@innertext='Products']"
+			robustPath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Products']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Products']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4174daf7-39bf-4b4d-bce4-d4b3cfd90d78"
+			name="Solutions"
+			refimgid="36806d8b-76e1-405d-af57-cc9fc3cc5261"
+			refpath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/li[2]/a[@innertext='Solutions']"
+			robustPath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Solutions']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Solutions']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="911735bc-fea3-4a07-90f6-1b8b9a68172f"
+			name="Ranorex"
+			refimgid="ee900f8d-5a5d-4943-8ed0-87f59802b600"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'et-boc']/header/div/div[2]/div/div[1]/div/a/span/img[@title='Ranorex-Logo-WithTagline']"
+			robustPath="/dom[@domain='www.ranorex.com']//div[#'et-boc']//img"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'et-boc']/header/div/div[2]//a[@href='https://www.ranorex.com/']/?/?/img[@title='Ranorex-Logo-WithTagline']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="238b2710-3a6a-4f2e-802d-c2170d13c301"
+			name="Resources"
+			refimgid="b60f1780-bd9d-4991-96e5-f0efe5224db9"
+			refpath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/li[3]/a[@innertext='Resources']"
+			robustPath="/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Resources']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//ul[#'menu-main-mega-menu']/?/?/a[@innertext='Resources']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3aedd7a4-ec4c-4626-bc54-07f5d6e1df7f"
+			name="Support"
+			refimgid="17623b8c-dd99-4467-8d54-810e31096171"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'menu_res_en']/div[@id='et-boc']/div/div/div/div/div[1]/div[1]/div/div[2]/h4/span[@innertext='Support']"
+			robustPath="/dom[@domain='www.ranorex.com']//div[#'menu_res_en']//span[@innertext='Support']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'menu_res_en']/div[@id='et-boc']/div/div/div/div/div[1]/div[1]/div/div[2]/?/?/span[@innertext='Support']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="d6afe3af-6f4d-46a7-bb93-0c3941954143"
+			name="FunctionalUITestAutomationWithIntel"
+			refimgid="4fdd6612-bd8c-469a-ac8c-0f6201c294a9"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'main-content']/article/div/div/div/div[1]/div/div[1]/div[1]/div/h1[@innertext>'Functional UI Test Automation']"
+			robustPath="/dom[@domain='www.ranorex.com']//div[#'main-content']//h1[@innertext>'Functional UI Test Automation']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'main-content']/article/div/div/div/div[1]/div/div[1]/div[1]/?/?/h1[@innertext&gt;'Functional UI Test Automation']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="bb336823-d291-49d7-b4b5-2c633805513b"
+			name="RanorexGaugeB2"
+			refimgid="d3ff9ff0-df26-4c4d-a7ff-af4bd233c628"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'main-content']/article/div/div/div/div[1]/div/div[2]/div/span/img[@title='Ranorex_Gauge_b2']"
+			robustPath="/dom[@domain='www.ranorex.com']//div[#'main-content']//img[@title='Ranorex_Gauge_b2']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'main-content']/article/div/div/div/div[1]/div/div[2]//img[@title='Ranorex_Gauge_b2']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

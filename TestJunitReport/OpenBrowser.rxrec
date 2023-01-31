@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f22a2289-5dc9-45eb-b1a2-6a0c144fd861"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="TestJunitReport">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="7dbe00f2-f0f9-4adb-beb1-e245cc898e65"
+	name="TestJunitReportRepository"
+	relativepath="TestJunitReportRepository.rxrep">
+		<codegen
+		classname="TestJunitReportRepository"
+		namespace="TestJunitReport">
+		</codegen>
+		<rootfolder
+		id="cde03a6b-3305-48bf-b8c7-138d2f8f344e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
